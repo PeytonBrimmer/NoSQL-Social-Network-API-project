@@ -1,0 +1,11 @@
+{
+  "name": "18",
+  "version": "1.0.0",
+  "description": "This is a NOsql Social Network API Application that allows users to connect with each other, create posts, comment on posts, and manage their social network activities.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
