@@ -1,5 +1,5 @@
 //import schema from mongoose 
-const { Schema, model} = require(mongoose);
+const { Schema, model} = require('mongoose');
 
 //definese mongoose schema for username email thoughts and friends 
 const userSchema = new Schema(
@@ -28,10 +28,13 @@ const userSchema = new Schema(
             ref: 'User',
         },
     ],
-     toJSON: {
-        getters: true,
-     },
-    }
+    },
+    {
+    toJSON: {
+        virtuals: true,
+    }, 
+    id: false
+}
 );
 
 userSchema.virtual('friendCount').get(function() {

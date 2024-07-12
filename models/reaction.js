@@ -1,5 +1,5 @@
 // imports schema from mongoose
-const { schema } = require('mongoose');
+const { Schema } = require('mongoose');
 
 // dines new mongoose schema 
 const reactionSchema = new Schema(

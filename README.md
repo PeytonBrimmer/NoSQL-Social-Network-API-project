@@ -4,6 +4,7 @@
 
 This is a NOsql Social Network API Application that allows users to connect with each other, create posts, comment on posts, and manage their social network activities.
 
+
 ## Features
 
 - User registration and authentication
